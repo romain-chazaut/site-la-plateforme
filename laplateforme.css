@@ -1,17 +1,15 @@
-
+/* header */
 
 header {
     display: flex;
     align-items: center;
     background-color: rgb(211, 211, 178);
     font-family: 'Ubuntu', sans-serif;
-
-
 }
 
 .logo-laplateforme {
     margin-right: 80px;
-
+    margin-bottom: 80px;
 }
 
 .container {
@@ -36,24 +34,82 @@ header {
 }
 
 
+/* FIRST MAIN */
+
+.first-main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(40, 40, 113);
+}
+
+.text-first-main {
+    display: inline;
+    font-size: 20px;
+    margin-right: -600px;
+    margin-left: 50px;
+    text-align: center;
+    align-items: center;
+    color: azure;
+}
+
+.photo-acceuil {
+   display: inline;
+   text-align: right;
+   width: 5000px;
+}
+
+/* SECOND MAIN */
+
+.titre-second-main {
+    
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+.logo-second-main {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left:  10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.text-second-main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: large;
+    text-align: center;
+}
+
+/* FOOTER */
+
 footer {
     padding-top: 0px;
     background-color: rgb(211, 211, 178);
 
 }
 
-.logo-laplateforme {
-    margin-right: 80px;
+.logo-laplateforme2 {
+    margin-top: 80px;
+    margin-left: -45px;
+    margin-right: 30px;
+}
 
+.logo-reseaux {
+    padding-top: 100px;
+    margin-left: 65px;
 }
 
 .footer-wrapper {
     display: flex;
     padding: 50px;
     margin-right: 80px;
-
 }
-
 
 .footer-content {
     display: flex;
@@ -66,6 +122,10 @@ footer {
 .informations {
     display: flex;
     flex-direction: column;
+    margin-left: 90px;
+    margin-top: 40px;
+    text-align: center;
+    list-style-type: none;
 }
 
 .la-plateforme-footer ul,
@@ -76,8 +136,3 @@ footer {
     padding: 20px;
 }
 
-.la-plateforme-footer li,
-.les-formations-footer li,
-.informations li {
-    margin-bottom: 10px;
-}
