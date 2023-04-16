@@ -23,6 +23,7 @@ header {
     display: flex;
     list-style-type: none;
     margin: auto;
+    align-items: center;
     
 }
 
@@ -130,8 +131,34 @@ main {
 }
 
 
+/* QUI SOMMES NOUS */
 
+.titre-qui-sommes-nous {
+    text-align: center;
+}
 
+.qui-sommes-nous {
+    display: flex;
+    justify-content: space-between
+}
+
+.block {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: large;
+}
+
+/* PARTENAIRES */
+
+.logos-partenaires {
+    display: inline-table;
+    margin-left: 15%;
+    margin-right: 15% ;
+
+  
+}
 
 
 /* FOOTER */
